@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.M.S Construções</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+
+    </header>
+    <nav class="menu" id="meno">
+         <img class="logo" src="logotipo.png" alt="logo">
+        <div class="opcao">
+            <div class="opc"> <p id="#inici" class="mn">Inicio</p></div>
+            <div class="opc"> <p id="#sobr" class="mn">Sobre</p></div>
+            <div class="opc"> <p id="#contat" class="mn">Contato</p></div>
+            
+        </div>
+    </nav>
+    <header class="cabeca" id="inici">
+        <div class="letreiro">
+            <h2 class="traco">--- </h2>
+            <h3 class="subtitulo">Mais do que obra,<br> é cuidado com seu lar:</h3>
+            <h1 class="titulo">Transforme <br> sua casa com <br> quem entende de reforma.</h1>
+            <div class="botoes"><button onclick="orcamento()" class="botao"> Orçamento</button>
+                <button class="botao1"> contato</button></div>
+        </div>
+    <div class="person"> <img class="figura" src="trasnpa.png" alt="logo"></div>
+    
+    <!-- <div><h1 class="titulo">Transforme sua casa com quem entende de reforma.</h1></div> -->
+    </header>
+    <main>
+        <section class="demostrativo">
+            <div class="produt"><img class="icon" src="qualify.svg" alt="projet">
+            <div><h1 class="title">5</h1>
+                <h2 class="subtitle">Projetos</h2></div>
+            </div>
+            <div class="produt"><img class="icon" src="client.svg" alt="client">
+                <div><h1 class="title">200</h1>
+                    <h2 class="subtitle">Clientes Satisfeito</h2></div>
+            </div>
+            <div class="produt"><img class="icon" src="qualif.svg" alt="qualify">
+                <div><h1 class="title">30</h1>
+                    <h2 class="subtitle">Funcionários Qualificados</h2></div>
+            </div>
+        </section>
+        <section class="frase">
+            <h1>Transformamos ideias em realidade!</h1>
+            <h4>Onde cada reforma conta uma história, transformamos ideias em realidade.</h4>
+            <img class="animar" src="anima.png" alt="animar">
+        </section>
+        <section class="elemento">
+            <div class="elemento1">
+                <h2 class="traco">--- </h2>
+            <h2 class="subtitulo">Tudo começa com uma boa conversa.</h2>
+            <h1>Seu <br> Projeto Começa <br> Com Um Bom Plano.</h1>
+            <h4>Peça seu orçamento gratuito e descubra como podemos realizar sua
+                 reforma com eficiência, economia e respeito ao seu espaço.</h4>
+                 <div class="botoe"><button onclick="orcamento()" class="botao"> Orçamento</button>
+            </div>
+            
+        </section>
+        <section class="feedback">
+            <h2 class="traco">--- </h2>
+            
+            <h1>O que as pessoas dizem sobre nós</h1>
+            <span class="quote-mark">“</span> 
+            <h3>Contratar a R.M.S Construções foi a melhor
+                 decisão que tomamos para reformar nossa casa. Desde o primeiro contato,
+                 a equipe foi atenciosa, clara e extremamente profissional.
+                </h3>
+                <img class="client-feed" src="gelson.jpg" alt="client">
+            <h4 class="nome">Gelson silva - Analista</h4>
+        </section>
+        <article class="pop-up">
+            <div class="pop-up1"><img onclick="sairpop()" class="sair" src="sair.svg" alt="">
+                <h1 class="titulo-pop">Escolha o tipo de serviço</h1>
+                <button class="botao-pop">Piso</button>
+                <button class="botao-pop">Reboco</button>
+                <button class="botao-pop">Forro PVC</button>
+                <button class="botao-pop">Outros</button>
+            </div>
+            
+        </article>
+        <section class="formulario">
+            <div class="formulario1">
+                <h1 class="titulo-pop">Agende seu Orçamento</h1><img onclick="sairform()" id="sairform" class="sair" src="sair.svg" alt="">
+                <div class="campo">
+                    <input class="campo-input" id="nome" type="text" placeholder="Digite Seu Nome" required> 
+                    <input class="campo-input" id="adress" type="text" placeholder="Exemplo de Endereço: Rua: A, N°10, Bairro: Oeste " required>
+                    <input class="campo-input" id="reference" type="text" placeholder="Digite a Referência">
+                </div>
+                <div class="resultado">
+                    <button class="calculo" onclick="confirmar()">Solicitar orçamento</button>
+                </div>
+            </div>
+        </section>
+        <div class="linha-com-sombra" id="sobr"></div>
+        
+        <!-- divisão entre feedback e FOFA -->
+        <section class="divisa" >
+            <h1 class="titulo-sobre">Sobre Nós</h1>
+            <section class="fofa">
+            <div class="missao">
+                <img class="imagem-missao" src="missão.png" alt="missão">
+                <h1 class="titulo-fofa">Missão</h1>
+                <p>Transformar ideias em realidade por meio de soluções em 
+                    construção civil com qualidade,
+                     segurança e compromisso com a satisfação de cada cliente.</p>
+            </div>
+            <div class="visao">
+                <img class="imagem-missao" src="tops.png" alt="">
+                <h1 class="titulo-fofa">Visão</h1>
+                <p>Transformar ideias em realidade por meio de
+                     soluções em construção civil com qualidade,
+                     segurança e compromisso com a satisfação de cada cliente.</p>
+            </div>
+            <div>
+                <img class="imagem-missao" src="valores.png" alt="">
+                <h1 class="titulo-fofa">Valores</h1>
+                <ul>
+                    <li>✅ Compromisso com o cliente</li>
+
+                    <li>🛠️ Qualidade e segurança em cada etapa</li>
+
+                    <li>🤝 Ética e transparência</li>
+
+                    <li>📈 Evolução contínua</li>
+
+                    <li>👷‍♂️ Valorização dos profissionais</li>
+
+                    <li>🌱 Responsabilidade socioambiental</li>
+                </ul>
+            </div>
+        </section>
+        </section>
+    </main>
+        <footer class="rodape" id="contat">
+            <div class="rodape-conteudo"><strong>R.M.S Construções</strong> &copy; 2025 - Todos os direitos reservados.</p>
+            <p>Telefone: (98) 98778-1962 | Email: contato@rmsconstrucoes.com.br</p>
+            <p>Rua Pernambuco, 244 - Pio XII/MA - CEP 65707-000</p> </div>
+                
+                <div class="redes-sociais">
+              <a href="https://instagram.com/r.m.s_construcoes" target="_blank">Instagram</a> |
+              <a href="https://facebook.com/francisco.santos" target="_blank">Facebook</a>
+                </div>
+          </footer>
+</body>
+</html>
