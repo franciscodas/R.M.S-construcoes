@@ -477,6 +477,7 @@ ul{
     color: #333333df;
     width: auto;
     padding-top: 20px;
+    text-align: center;
 }
 li{
     font-family: 'Open Sans', sans-serif;
@@ -485,6 +486,7 @@ li{
     line-height: 1; 
     padding-bottom:20px;
     color: #ffffffd6;
+    text-align: center;
 }
 .divisa{
   background-image: 
@@ -547,6 +549,7 @@ li{
     width: auto;
     align-items: center;
     gap: 10px;
+    padding-right: 10px;
   }
 
   .mn {
@@ -588,6 +591,12 @@ li{
   .botao1 {
     width: 90%;
   }
+  .botao1:hover{
+    width: 90%;
+  }
+  .botao:hover {
+    width: 90%;
+  }
 
   .figura {
     width: 80%;
@@ -610,6 +619,15 @@ li{
     gap: 10px;
   }
 
+  ul{
+    list-style-type: none;
+    padding-left: 20px;
+    color: #333333df;
+    width: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
   .animar {
     width: 100px;
     margin-top: 10px;
@@ -618,6 +636,7 @@ li{
   .elemento {
     flex-direction: column;
     background-position: center;
+    width: 91.7%;
     height: auto;
     padding: 20px;
   }
@@ -627,7 +646,7 @@ li{
   }
 
   .elemento1 h4 {
-    width: 100%;
+    width:300px;
     font-size: 16px;
   }
 
@@ -635,6 +654,11 @@ li{
     font-size: 16px;
     width: 90%;
     padding: 10px;
+  }
+
+  .feedback h1{
+    width: 95%;
+    padding: 4px;
   }
 
   .fofa {
@@ -653,10 +677,19 @@ li{
     font-size: 20px;
   }
 
-  .formulario1,
+  .pop-up {
+    margin:auto;
+    padding-top: 180px;
+  }
   .pop-up1 {
-    margin-top: 42%;
-    margin-left: 3%;
+    margin:auto;
+  }
+  .formulario{
+    margin:auto;
+    padding-top: 180px;
+  }
+  .formulario1 {
+    margin:auto;
   }
 
   .campo,

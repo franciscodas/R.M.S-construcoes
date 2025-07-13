@@ -95,6 +95,6 @@ function msg(){
  Entraremos em contato em breve!`;
 
 var mensagem = encodeURIComponent(resumo);
-    var linkzap = `https://wa.me/5594984333958?text=${mensagem}`;
+    var linkzap = `https://wa.me/5598987781962?text=${mensagem}`;
     window.location.href = linkzap; 
 }
